@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bckgrnd"
+    tools:context=".MainActivity"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/piece"
+        android:layout_width="293dp"
+        android:layout_height="match_parent"
+        android:layout_marginVertical="90dp"
+        android:background="@drawable/rounded_main"
+        android:orientation="vertical"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/name1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="9.5"
+            android:ems="10"
+            android:gravity="center_horizontal|center_vertical"
+            android:textAlignment="gravity"
+            android:inputType="textPersonName"
+            android:text="Name"
+
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textDisplay1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Bruh"
+            android:gravity="center_horizontal|center_vertical"
+            android:textAlignment="gravity"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/timerDisplay1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="9"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="18:00"
+            android:gravity="center_horizontal|center_vertical"
+            android:textAlignment="gravity"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/frontpiece"
+        android:layout_width="293dp"
+        android:layout_height="match_parent"
+        android:layout_marginVertical="90dp"
+        android:background="@drawable/rounded_main"
+        android:orientation="vertical"
+
+        android:translationX="255dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498">
+
+        <TextView
+            android:id="@+id/name2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="9.5"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name"
+            android:gravity="center_horizontal|center_vertical"
+            android:textAlignment="gravity"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textDisplay2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Bruh"
+            android:gravity="center_horizontal|center_vertical"
+            android:textAlignment="gravity"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/timerDisplay2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="9"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="18:00"
+            android:gravity="center_horizontal|center_vertical"
+            android:textAlignment="gravity"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/backpiece"
+        android:layout_width="293dp"
+        android:layout_height="match_parent"
+        android:layout_marginVertical="90dp"
+        android:background="@drawable/rounded_main"
+        android:orientation="vertical"
+        android:translationX="-255dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="9.5"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name"
+            android:gravity="center_horizontal|center_vertical"
+            android:textAlignment="gravity"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textDisplay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Bruh"
+            android:gravity="center_horizontal|center_vertical"
+            android:textAlignment="gravity"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/timerDisplay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="9"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="18:00"
+            android:gravity="center_horizontal|center_vertical"
+            android:textAlignment="gravity"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/helper"
+        android:layout_width="293dp"
+        android:layout_height="match_parent"
+        android:layout_marginVertical="90dp"
+        android:background="@drawable/rounded_main"
+        android:orientation="vertical"
+
+        android:translationX="780dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/piece"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/name3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="9.5"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name"
+            android:gravity="center_horizontal|center_vertical"
+            android:textAlignment="gravity"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textDisplay3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Bruh"
+            android:gravity="center_horizontal|center_vertical"
+            android:textAlignment="gravity"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/timerDisplay3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="9"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="18:00"
+            android:gravity="center_horizontal|center_vertical"
+            android:textAlignment="gravity"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="67dp"
+        android:alpha="0"
+        app:layout_constraintBottom_toTopOf="@+id/piece"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
